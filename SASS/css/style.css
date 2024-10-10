@@ -103,7 +103,7 @@ footer p a {
   border: 2px solid antiquewhite;
   background: #c31432;
   background: -webkit-linear-gradient(to left, #240b36, #c31432);
-  background: linear-gradient(to left, #240b36, #c31432);
+  background: linear-gradient(to left, #000000, #45c3e2);
   position: fixed;
   left: 20vw;
   visibility: hidden;

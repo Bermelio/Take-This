@@ -2,26 +2,26 @@
 const arrayNotes = [
      {
          id: 1,
-         title: 'La mama del mati',
-         content: 'uhhh guacho la mama del mati y la prima de ja xd',
+         title: 'Probando',
+         content: 'testing pagina web',
          img: ''
      },
      {
          id: 2,
-         title: 'Minecraft',
-         content: 'hacer granja de experiencia',
+         title: 'Carpintera',
+         content: 'Comprar platicola, seruchin y eso',
          img: ''
      },
      {
          id: 3,
-         title: 'boviano ataca denuevo',
-         content: 'skibidid dub dub yes ye sskibidi dip dip',
+         title: 'Yaguarete',
+         content: 'Salvar yaguarete de Salta',
          img: ''
      },
      {
          id: 4,
-         title: 'fruta',
-         content: 'comprar mandzanada y esto y ayqeuiasd',
+         title: 'Fulvo',
+         content: 'Comprar pelota, botines, medias we tenia que comprar todo',
          img: ''
      }
  ];
