@@ -1,4 +1,4 @@
-// ============== array main notes =================
+
 const arrayNotes = [
      {
          id: 1,
@@ -25,17 +25,21 @@ const arrayNotes = [
          img: ''
      }
  ];
- 
+
+ localStorage.setItem('notes',JSON.stringify(arrayNotes));
+ alert('notas guardadas')
  // =================== random img ================= 
+
+
  const collectionImg = [
-     'assests/argentina.jpg',
-     'assests/fiat-uno.jpg',
-     'assests/floppa.jpg',
-     'assests/fulvo.jpg',
-     'assests/maestroSplinter.jpg',
-     'assests/mondongo.jpg',
-     'assests/rei.jpg',
-     'assests/skeleto.jpg'
+     'assets/gallery/argentina.jpg',
+     'assets/gallery/fiat-uno.jpg',
+     'assets/gallery/floppa.jpg',
+     'assets/gallery/fulvo.jpg',
+     'assets/gallery/maestroSplinter.jpg',
+     'assets/gallery/mondongo.jpg',
+     'assets/gallery/rei.jpg',
+     'assets/gallery/skeleto.jpg'
  ];
  
  function randomImg(collectionImg) {
@@ -71,7 +75,7 @@ const arrayNotes = [
  const newNote = document.getElementById('newNote');
  const btnClose = document.getElementById('btnClose');
  
- newNote.addEventListener('mouseover', () => {
+ newNote.addEventListener('click', () => {
      modalContainer.classList.add('modalToggle');
  });
  
@@ -99,4 +103,3 @@ const arrayNotes = [
      title.value = '';
      content.value = '';
  });
- 
